@@ -1,0 +1,24 @@
+[
+  {
+    "jobId": "build",
+    "status": "success",
+    "startedAt": "2024-07-06T07:48:34.711Z",
+    "endedAt": "2024-07-06T07:48:41.399Z",
+    "execTime": 6688
+  },
+  {
+    "jobId": "save",
+    "status": "failed",
+    "startedAt": "2024-07-06T07:48:41.399Z",
+    "endedAt": "2024-07-06T07:48:41.455Z",
+    "execTime": 56,
+    "failedReason": {}
+  },
+  {
+    "jobId": "deploy",
+    "status": "success",
+    "startedAt": "2024-07-06T07:48:41.455Z",
+    "endedAt": "2024-07-06T07:48:41.455Z",
+    "execTime": 0
+  }
+]
