@@ -1,0 +1,125 @@
+{
+  "history": [
+    {
+      "jobId": "build-script",
+      "status": "success",
+      "startedAt": "2024-07-08T14:15:04.579Z",
+      "endedAt": "2024-07-08T14:15:09.133Z",
+      "response": [
+        [
+          {
+            "jobId": "site-detect-package-manager",
+            "status": "success",
+            "startedAt": "2024-07-08T14:15:04.579Z",
+            "endedAt": "2024-07-08T14:15:04.579Z",
+            "execTime": 0
+          },
+          {
+            "jobId": "site-build",
+            "status": "success",
+            "startedAt": "2024-07-08T14:15:04.579Z",
+            "endedAt": "2024-07-08T14:15:09.133Z",
+            "response": {
+              "success": true,
+              "data": {
+                "stdout": "> @obsidian_blogger/astro_blog@0.1.0 build /Users/june/Documents/project/blogger_astro_blog\n> astro check && astro build\n\n23:15:05 [types] Added src/env.d.ts type declarations.\n23:15:05 [types] Added src/env.d.ts type declarations.\n23:15:05 Types generated 136ms\n23:15:05 [check] Getting diagnostics for Astro files in /Users/june/Documents/project/blogger_astro_blog...\n\u001b[96msrc/components/youtube.tsx\u001b[0m:\u001b[93m100\u001b[0m:\u001b[93m9\u001b[0m - \u001b[93mwarning\u001b[0m\u001b[90m ts(6385): \u001b[0m'frameBorder' is deprecated.\n\n\u001b[7m100\u001b[0m         frameBorder={0}\n\u001b[7m   \u001b[0m \u001b[93m        ~~~~~~~~~~~\u001b[0m\n\u001b[96msrc/components/youtube.tsx\u001b[0m:\u001b[93m1\u001b[0m:\u001b[93m8\u001b[0m - \u001b[93mwarning\u001b[0m\u001b[90m ts(6133): \u001b[0m'React' is declared but its value is never read.\n\n\u001b[7m1\u001b[0m import React, { useEffect, useRef, useState } from \"react\";\n\u001b[7m \u001b[0m \u001b[93m       ~~~~~\u001b[0m\n\nResult (18 files): \n- 0 errors\n- 0 warnings\n- 2 hints\n\n23:15:08 [types] Added src/env.d.ts type declarations.\n23:15:08 [types] Added src/env.d.ts type declarations.\n23:15:08 [build] output: \"static\"\n23:15:08 [build] directory: /Users/june/Documents/project/blogger_astro_blog/dist/\n23:15:08 [build] Collecting build info...\n23:15:08 [build] ✓ Completed in 165ms.\n23:15:08 [build] Building static entrypoints...\n23:15:08 [types] Added src/env.d.ts type declarations.\n23:15:08 [vite] ✓ built in 626ms\n23:15:08 [build] ✓ Completed in 641ms.\n\n building client (vite) \n23:15:08 [types] Added src/env.d.ts type declarations.\n23:15:08 [vite] transforming...\n23:15:09 [vite] ✓ 30 modules transformed.\n23:15:09 [vite] rendering chunks...\n23:15:09 [vite] computing gzip size...\n23:15:09 [vite] dist/_astro/youtube.C552tIqZ.js    3.01 kB │ gzip:  1.51 kB\n23:15:09 [vite] dist/_astro/index.DhYZZe0J.js      6.72 kB │ gzip:  2.68 kB\n23:15:09 [vite] dist/_astro/client.BIGLHmRd.js   135.60 kB │ gzip: 43.81 kB\n23:15:09 [vite] ✓ built in 243ms\n\n generating static routes \n23:15:09 ▶ src/pages/about.astro\n23:15:09   └─ /about/index.html (+3ms)\n23:15:09 ▶ src/pages/blog/[category]/index.astro\n23:15:09 ▶ src/pages/blog/[category]/[...post]/index.astro\n23:15:09 ▶ src/pages/blog/index.astro\n23:15:09   └─ /blog/index.html (+2ms)\n23:15:09 λ src/pages/rss.xml.js\n23:15:09   └─ /rss.xml (+1ms)\n23:15:09 ▶ src/pages/index.astro\n23:15:09   └─ /index.html (+1ms)\n23:15:09 ✓ Completed in 27ms.\n\n23:15:09 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`\n23:15:09 [build] 3 page(s) built in 1.09s\n23:15:09 [build] Complete!",
+                "stderr": "23:15:05 [ERROR] [vite] WebSocket server error: Port is already in use\n23:15:08 [ERROR] [vite] WebSocket server error: Port is already in use\nThe collection \"category\" does not exist or is empty. Ensure a collection directory with this name exists.\nThe collection \"blog\" does not exist or is empty. Ensure a collection directory with this name exists.\nThe collection \"blog\" does not exist or is empty. Ensure a collection directory with this name exists.\nThe collection \"category\" does not exist or is empty. Ensure a collection directory with this name exists.\nThe collection \"blog\" does not exist or is empty. Ensure a collection directory with this name exists.\n",
+                "command": "/Users/june/Library/pnpm/pnpm build"
+              }
+            },
+            "execTime": 4554
+          }
+        ]
+      ],
+      "execTime": 4554
+    },
+    {
+      "jobId": "repository",
+      "status": "success",
+      "startedAt": "2024-07-08T14:15:09.133Z",
+      "endedAt": "2024-07-08T14:15:11.761Z",
+      "response": [
+        [
+          {
+            "jobId": "git-check-remote-origin",
+            "status": "success",
+            "startedAt": "2024-07-08T14:15:09.133Z",
+            "endedAt": "2024-07-08T14:15:09.147Z",
+            "response": true,
+            "execTime": 14
+          },
+          {
+            "jobId": "git-add",
+            "status": "success",
+            "startedAt": "2024-07-08T14:15:09.147Z",
+            "endedAt": "2024-07-08T14:15:09.191Z",
+            "response": {
+              "stdout": "",
+              "stderr": "",
+              "command": "/usr/bin/git add ."
+            },
+            "execTime": 44
+          },
+          {
+            "jobId": "git-commit",
+            "status": "success",
+            "startedAt": "2024-07-08T14:15:09.191Z",
+            "endedAt": "2024-07-08T14:15:09.215Z",
+            "response": {
+              "stdout": "[main 0d6abf1] feat: published by publisher, automatically generated @2024-07-08T14_15_04.564Z\n 3 files changed, 127 insertions(+)\n create mode 100644 ci_test/2024-07-08T14_14_39.305Z_pub_result.json\n create mode 100644 ci_test/2024-07-08T14_14_57.209Z.txt\n create mode 100644 ci_test/2024-07-08T14_15_04.563Z.txt",
+              "stderr": "",
+              "command": "/usr/bin/git commit -m \"feat: published by publisher, automatically generated @2024-07-08T14_15_04.564Z\""
+            },
+            "execTime": 24
+          },
+          {
+            "jobId": "git-push",
+            "status": "success",
+            "startedAt": "2024-07-08T14:15:09.216Z",
+            "endedAt": "2024-07-08T14:15:11.761Z",
+            "response": {
+              "stdout": "",
+              "stderr": "To https://github.com/danpacho/obsidian_ci_target.git\n   89fc050..0d6abf1  main -> main\n",
+              "command": "/usr/bin/git push origin main"
+            },
+            "execTime": 2545
+          }
+        ]
+      ],
+      "execTime": 2628
+    },
+    {
+      "jobId": "deploy",
+      "status": "success",
+      "startedAt": "2024-07-08T14:15:11.761Z",
+      "endedAt": "2024-07-08T14:15:11.761Z",
+      "response": [
+        {
+          "someConfig": "someValue"
+        }
+      ],
+      "execTime": 0
+    }
+  ],
+  "commands": {
+    "builder": [
+      {
+        "buildScript": [
+          "build"
+        ]
+      }
+    ],
+    "repository": [
+      {
+        "branch": "main",
+        "commitPrefix": "feat",
+        "commitMessage": "published by publisher, automatically generated @2024-07-08T14_15_04.564Z"
+      }
+    ],
+    "deployer": [
+      {
+        "someConfig": "someValue"
+      }
+    ]
+  }
+}
