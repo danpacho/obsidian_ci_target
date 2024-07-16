@@ -1,0 +1,55 @@
+[
+  {
+    "jobName": "blog-build-script-runner",
+    "status": "success",
+    "startedAt": "2024-07-16T06:47:32.380Z",
+    "endedAt": "2024-07-16T06:47:32.380Z",
+    "response": [
+      {
+        "jobName": "detect-package-manager",
+        "status": "failed",
+        "startedAt": "2024-07-16T06:47:32.380Z",
+        "endedAt": "2024-07-16T06:47:32.380Z",
+        "execTime": 0,
+        "error": {
+          "error": {},
+          "name": "JobError"
+        }
+      },
+      {
+        "jobName": "build",
+        "status": "failed",
+        "startedAt": "2024-07-16T06:47:32.380Z",
+        "endedAt": "2024-07-16T06:47:32.380Z",
+        "execTime": 0,
+        "error": {
+          "error": {},
+          "name": "JobError"
+        }
+      }
+    ],
+    "execTime": 0
+  },
+  {
+    "jobName": "github",
+    "status": "failed",
+    "startedAt": "2024-07-16T06:47:32.381Z",
+    "endedAt": "2024-07-16T06:47:32.381Z",
+    "execTime": 0,
+    "error": {
+      "error": {},
+      "name": "JobError"
+    }
+  },
+  {
+    "jobName": "vercel",
+    "status": "success",
+    "startedAt": "2024-07-16T06:47:32.381Z",
+    "endedAt": "2024-07-16T06:47:32.381Z",
+    "response": {
+      "success": true,
+      "data": "Deployed to Vercel"
+    },
+    "execTime": 0
+  }
+]
